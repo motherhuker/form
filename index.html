@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css"/>
+    <title>Form test</title>
+    
+</head>
+<body>
+  <h1>Just Test</h1>
+  <div class="row"><p>
+    <div class="column1">
+        "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+        "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+    </div>
+   <div class="column2">
+    What is Lorem Ipsum?
+    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</div>
+<div class="column3">
+    Why do we use it?
+    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
+</div>
+</p> 
+</div>
+<form action="results.html/" method="get">
+<div>
+    <label for="name">Name</label>
+    <input type="text"name="name" id="name" required
+    placeholder="Enter your name" />
+    
+</div>
+<div>
+    <label for="age">Age</label>
+    <input type="number" name="age" id="age" min="1" max="100">
+</div>
+<div>
+    <label for="date">Birthday</label>
+    <input type="date" name="date" id="date">
+</div>
+<div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email"  required
+    placeholder="Enter yor Last Name"/>
+  
+</div>
+<div>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" required>
+    <button type="reset">Reset</button>
+    <button type="submit">Submit</button>
+</div>
+<div>
+    What gender are you?
+</div>
+<div>
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="male">
+</div>
+<div>
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female">
+</div>
+<div>
+    <label for="eyeColor">Eye Color</label>
+        <select name="eyeColor" id="eyeColor">
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="brown">Brown</option>
+            <option value="yellow">Yellow</option>
+        </select>
+</div>
+<div>
+    Do you have allergies?(Please check from above)
+
+</div>
+<div> 
+    <label for="cat">Cat</label>
+        <input type="checkbox" name="cat" id=" cat">
+</div> 
+<div>
+    <label for="dog">Dog</label>
+        <input type="checkbox"name="dog" id="dog">
+</div>               
+<div>
+    <label for="bees">Bees</label>
+        <input type="checkbox"name="bees" id="bees">
+</div>
+<div>
+    <label for="eggs">Eggs</label>
+        <input type="checkbox" name="eggs" id="eggs">
+
+</div>
+
+    <button>Submit</button>
+    
+</body>
+</html>
